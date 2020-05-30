@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^mahasiswa/?$ index.php [NC,L]
+RewriteRule ^mahasiswa/([A-Z0-9-]+)/?$ index.php?nim=$1 [NC,L]
